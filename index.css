@@ -1,0 +1,142 @@
+/*configuração dos textos - pontual*/
+.tx-title{
+    font-family: 'Roboto';
+    font-size: 1.3vw;
+    margin-bottom: 0;
+    padding: 0;
+}
+.tx-sub{
+    font-family: 'Roboto';
+    font-size: 0.95vw;
+    margin: 0;
+    padding: 0;
+}
+
+.tx-video-title{
+    font-family: 'Roboto';
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+.tx-video-info{
+    font-family: 'Roboto';
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+.tx-video-sub{
+    font-family: 'Roboto';
+    font-size: 1.3vw;
+    font-weight: bold
+}
+.tx-content-stg{
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: bold;
+}
+.tx-video{
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.tx-title-cont {
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+/*configuração de tamanhos, cores e decorações*/
+
+.div-video-info{
+    top: 78%;
+    left: 30%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-40%, -50%);
+}
+
+.portail{
+    border-radius: 100%;
+    padding: 4px;
+    border: 1px solid #ED7839;
+    width: 6vw;
+}
+
+.header-size{
+    max-height: 70px;
+    background-color: #FDF1EB;
+}
+.bg-rose{
+    background-color: #FDF1EB 
+}
+.tx-orange{
+    color: #ED7839;
+    text-decoration: none;
+}
+
+.button-link{
+    background-color: #ED7839;
+    text-decoration: none;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+.gradient-orange{
+    background: linear-gradient(to bottom , #FFB354, #EE7A3A);
+}
+@media screen and (max-width: 991px) {
+    .tx-title{
+        font-size: 3vw;
+    }
+    .tx-sub{
+        font-size: 2vw;
+    }
+    .header-size{
+         max-height: none;
+    }
+    .tx-video-title{
+        font-size: 3.5vw;
+    }
+    .tx-video-info{
+        font-size: 4vw;
+    }
+    .tx-video-sub{
+        font-size: 2vw;
+    }
+    .div-video-info{
+        left: 20%;
+        transform: translate(-20%, -50%);
+    }
+}
+
+/*configurações de texto - modular*/
+.tx-common-10{
+    font-family: 'Quicksand';
+    font-size: 10px;
+}
+.tx-common-12{
+    font-family: 'Quicksand';
+    font-size: 10px;
+}
+.tx-common-14{
+    font-family: 'Quicksand';
+    font-size: 14px;
+    margin: 0;
+}
+.tx-common-16{
+    font-family: 'Quicksand';
+    font-size: 16px;
+}
+.nav-hover{
+    border-left: 50px solid #fff;
+    cursor: pointer;
+    background-color: white;
+}
+.nav-focus{
+    background: #FDF1EB;
+    border-left: 50px solid #ED7839;
+}
+/*Elementos em hover*/
+.nav-hover:hover{
+    background:#ED7839;
+}
+
+
+
