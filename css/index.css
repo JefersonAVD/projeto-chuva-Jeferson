@@ -1,4 +1,11 @@
 /*configuração dos textos - pontual*/
+.login-img{
+    width: 40px; 
+    height: 40px;
+}
+.descrition-height{
+    height: 460px;
+}
 #conteudo{
     resize:none;
 }
@@ -15,6 +22,9 @@
     font-family: 'Quicksand';
     color:#707070;
 }
+.bg-reponses{
+    background: #f8f6f6;
+}
 .tx-title{
     font-family: 'Roboto';
     font-size: 1.3vw;
@@ -23,7 +33,7 @@
 }
 .tx-sub{
     font-family: 'Roboto';
-    font-size: 0.95vw;
+    font-size: 1vw;
     margin: 0;
     padding: 0;
 }
